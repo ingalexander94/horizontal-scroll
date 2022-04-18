@@ -4,6 +4,10 @@ img {
   object-fit: cover;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .swiper-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -33,4 +37,12 @@ img {
   background: black;
   color: white;
   transition: all 0.5s ease-in;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
